@@ -92,3 +92,23 @@ select {
     background-position-y: 20px;
 }
 
+#voiceSelect option {
+    background: #403d84;
+    color: #fff;
+}
+
+/* CSS untuk layar dengan lebar kurang dari atau sama dengan 768px */
+@media (max-width: 768px) {
+    .hero {
+        padding: 20px; /* Misalnya, mengurangi padding pada elemen .hero */
+    }
+
+    textarea {
+        width: 100%; /* Memastikan textarea mengisi lebar layar */
+        max-width: 100%;
+    }
+    .row {
+        width: 100%;
+        max-width: 100%;
+    }
+}
