@@ -108,7 +108,15 @@ select {
         max-width: 100%;
     }
     .row {
-        width: 100%;
-        max-width: 100%;
+        width: 100%; /* Memastikan elemen .row mengisi lebar layar */
+        flex-direction: column; /* Mengubah tata letak elemen .row menjadi vertikal */
+        align-items: stretch; /* Memastikan elemen .row mengisi lebar layar */
+        gap: 10px; /* Ruang antar elemen dalam vertikal */
+        height: 110px;
     }
+
+    button {
+        width: 40%; /* Memastikan tombol mengisi lebar layar */
+    }
+}
 }
